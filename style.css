@@ -1,0 +1,316 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Dancing+Script:wght@400;500;600;700&family=Inter:wght@100;200;300;400;500;600;700;800&family=Libre+Baskerville&family=Londrina+Shadow&family=Merriweather:ital,wght@1,300&family=Mukta:wght@300&family=Noto+Serif&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Prompt:wght@300&family=Signika+Negative:wght@400;500;600;700&family=Source+Sans+Pro:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Dancing+Script:wght@400;500;600;700&family=Inter:wght@100;200;300;400;500;600;700;800&family=Karla:wght@200;300;400&family=Libre+Baskerville&family=Londrina+Shadow&family=Merriweather:ital,wght@1,300&family=Mukta:wght@300&family=Noto+Serif&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Prompt:wght@300&family=Signika+Negative:wght@400;500;600;700&family=Source+Sans+Pro:wght@900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Dancing+Script:wght@400;500;600;700&family=Inter:wght@100;200;300;400;500;600;700;800&family=Karla:wght@200;300;400&family=Libre+Baskerville:wght@700&family=Londrina+Shadow&family=Merriweather:ital,wght@1,300&family=Mukta:wght@300&family=Noto+Serif&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Prompt:wght@300&family=Signika+Negative:wght@400;500;600;700&family=Source+Sans+Pro:wght@900&display=swap');
+
+/* font-family: 'DM Serif Display', serif !important; */
+.primary-green {
+  color: #408E91 !important;
+}
+
+.primary-green-bg {
+  background-color: #408E91 !important;
+}
+
+.secondary-color {
+  color: #E49393 !important;
+}
+
+.secondary-color-bg {
+  background-color: #E49393 !important;
+}
+
+/* NAVBAR */
+.navbar {
+  background-color: #f9f3f4 !important;
+  font-family: "Karla", sans-serif !important;
+  font-weight: 300 !important;
+  z-index: 9999;
+}
+
+/* HEADER */
+.headerr {
+  padding-bottom: 5%;
+}
+
+.header-img {
+  opacity: 0.7;
+}
+
+.header_main-middle-box {
+  width: 75%;
+  text-align: center;
+}
+
+.header_main-heading {
+  font-family: "DM Serif Display", serif !important;
+  color: #a7c6bf;
+  font-size: 5vw;
+  opacity: 1 !important;
+  background: linear-gradient(120deg, #275668cf 0%, #294d66d5 100%);
+  /*linear-gradient(180deg, rgba(255, 253, 253, 0.384) 50%, #9fcfd17d 50%);*/
+}
+
+/* SECTION-1 */
+
+.section-products #fabric-1 .part-1::before {
+  background: url("https://img.freepik.com/free-photo/blue-red-orange-color-tailoring-leather-tissues-catalog_114579-7248.jpg?w=1380&t=st=1681057799~exp=1681058399~hmac=469a7ffd94933861f498ac80dd4062f6d99da3c23eb159f68fa9cb7eb92c5d06") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #fabric-2 .part-1::before {
+  background: url("https://img.freepik.com/free-photo/light-orange-blue-color-palette-tailoring-leather-tissues-catalog_114579-7243.jpg?w=1380&t=st=1681057801~exp=1681058401~hmac=34a3223c06317555ad2e9069af11ad6f6257e32e62162ac4f241c8210765c2e5") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #fabric-3 .part-1::before {
+  background: url("https://img.freepik.com/free-photo/detail-color-fabric-texture-samples_1373-101.jpg?w=1380&t=st=1681057874~exp=1681058474~hmac=8d6805e8653bb9fea168ee2aca4542287a899ed7ad95d753a9961e16625e1d6f") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #fabric-4 .part-1::before {
+  background: url("https://img.freepik.com/free-photo/view-felt-fabric-pink-purple-tones_23-2149447306.jpg?w=1380&t=st=1681057888~exp=1681058488~hmac=fe97ea92a27633984aa7e40a6345e024f05922dd8590c2be16d589f57cc2e2b4") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #fabric-5 .part-1::before {
+  background: url("https://img.freepik.com/free-photo/pile-textiles-background_53876-88750.jpg?w=1380&t=st=1681057888~exp=1681058488~hmac=4dc30f9e34b1b91a1dc53e3bc70a82848c713b4b991e8a195dcc7ac938cf6a5f") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #fabric-6 .part-1::before {
+  background: url("https://img.freepik.com/free-photo/various-type-clothes-clothing-store_23-2148175666.jpg?w=1380&t=st=1681057990~exp=1681058590~hmac=69faa72026f3827404bb8a165b9e7f7b89edd81bb5976c4e9f825bf269ddd911") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #fabric-7 .part-1::before {
+  background: url("https://img.freepik.com/free-photo/high-angle-view-various-multi-colored-stripes-pattern-textiles_23-2147921505.jpg?w=1380&t=st=1681057921~exp=1681058521~hmac=28568d32e93fd369d957df8b75c967e17f996470999b5d8b85eeee0b6a58b5f0") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #fabric-8 .part-1::before {
+  background: url("https://img.freepik.com/free-photo/closeup-shot-piles-colorful-cloth-fabrics-shop_181624-13009.jpg?w=1380&t=st=1681057955~exp=1681058555~hmac=0f1ddda33c14820fd8a25ad202704f8722e0e20c6d64f2a95825a87c9a5e6e59") no-repeat center;
+  background-size: cover;
+}
+
+/* SECTION-2 */
+a,
+a:hover {
+  text-decoration: none;
+}
+
+.section-products {
+  padding: -20px 0 54px;
+}
+
+.section-products .header {
+  margin-bottom: 50px;
+}
+
+.section-products .header h3 {
+  font-size: 1rem;
+
+  color: #fe302f;
+  font-weight: 500;
+}
+
+.section-products .header h2 {
+  font-size: 2.2rem;
+
+  font-weight: 400;
+  color: #444444;
+
+}
+
+.section-products .single-product {
+  margin-bottom: 26px;
+
+}
+
+.section-products .single-product .part-1 {
+  position: relative;
+  height: 400px;
+  max-height: 390px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.section-products .single-product .part-1::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  transition: all 0.3s;
+}
+
+.section-products .single-product:hover .part-1::before {
+  transform: scale(1.2, 1.2) rotate(5deg);
+}
+
+.section-products #product-1 .part-1::before {
+  background: url("https://images.pexels.com/photos/3262937/pexels-photo-3262937.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") no-repeat center;
+  background-size: cover;
+  transition: all 0.3s;
+}
+
+.section-products #product-2 .part-1::before {
+  background: url("https://images.pexels.com/photos/365067/pexels-photo-365067.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #product-3 .part-1::before {
+  background: url("https://images.pexels.com/photos/1057313/pexels-photo-1057313.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #product-4 .part-1::before {
+  background: url("https://images.pexels.com/photos/4405941/pexels-photo-4405941.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #product-5 .part-1::before {
+  background: url("https://images.pexels.com/photos/250290/pexels-photo-250290.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #product-6 .part-1::before {
+  background: url("https://images.pexels.com/photos/6051248/pexels-photo-6051248.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #product-7 .part-1::before {
+  background: url("https://images.pexels.com/photos/8387812/pexels-photo-8387812.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #product-8 .part-1::before {
+  background: url("https://images.pexels.com/photos/3965559/pexels-photo-3965559.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") no-repeat center;
+  background-size: cover;
+}
+
+.section-products .single-product .part-1 .discount,
+.section-products .single-product .part-1 .new {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  color: #ffffff;
+  background-color: #E49393;
+  padding: 2px 8px;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+}
+
+.section-products .single-product .part-1 .new {
+  left: 0;
+  background-color: #444444;
+}
+
+.section-products .single-product .part-1 ul {
+  position: absolute;
+  bottom: -41px;
+  left: 20px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  opacity: 0;
+  transition: bottom 0.5s, opacity 0.5s;
+}
+
+.section-products .single-product:hover .part-1 ul {
+  bottom: 30px;
+  opacity: 1;
+}
+
+.section-products .single-product .part-1 ul li {
+  display: inline-block;
+  margin-right: 4px;
+}
+
+.section-products .single-product .part-1 ul li a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  background-color: #ffffff;
+  color: #444444;
+  text-align: center;
+  box-shadow: 0 2px 20px rgb(50 50 50 / 10%);
+  transition: color 0.2s;
+}
+
+.section-products .single-product .part-1 ul li a:hover {
+  color: #E49393;
+}
+
+.section-products .single-product .part-2 .product-title {
+  font-size: 1rem;
+}
+
+.section-products .single-product .part-2 h4 {
+  display: inline-block;
+  font-size: 1rem;
+}
+
+.section-products .single-product .part-2 .product-old-price {
+  position: relative;
+  padding: 0 7px;
+  margin-right: 2px;
+  opacity: 0.6;
+}
+
+.section-products .single-product .part-2 .product-old-price::after {
+  position: absolute;
+  content: "";
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #444444;
+  transform: translateY(-50%);
+}
+
+
+.section-3 {
+  background-color: #f1c6d368;
+  height: auto;
+
+}
+
+.section-3 .container {
+  padding: 2rem 0 5rem 0;
+
+}
+
+.img-thumbnail {
+  border-top-right-radius: 3rem;
+  border-bottom-left-radius: 3rem;
+  filter: contrast();
+
+}
+
+/* SECTION-4 */
+.counter-container {
+  font-family: 'Libre Baskerville', serif;
+  color: #696969 !important;
+}
+
+.counter-row {
+  padding: 10rem 0 !important;
+}
+
+
+.footer {
+  background-color: #393939;
+  font-family: "Karla", sans-serif !important;
+}
+
+@media (max-width: 575px) {
+  .footer .row {
+    display: flex;
+    flex-direction: column !important;
+  }
+}
+
+/* Home page    */
