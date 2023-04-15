@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hassan G Sons</title>
+    <!-- BOOTSTRAP CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- FONT AWESOME CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <style>
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- HEADER -->
+        <div class="headerr">
+            <!-- NAVBAR -->
+            <nav class="navbar container-fluid navbar-expand-lg navbar-dark  py-4 px-4 sticky-top">
+                <!--  Show this only on mobile to medium screens  -->
+                <a class="navbar-brand d-lg-none primary-green" href="index.html">HASSAN G SONS</a>
+                <button class="navbar-toggler primary-green" type="button" data-toggle="collapse"
+                    data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon primary-green"><i class="fa-solid fa-bars"></i></span>
+                </button>
+                <!--  Use flexbox utility classes to change how the child elements are justified  -->
+                <div class="collapse navbar-collapse justify-content-between" id="navbarToggle">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active primary-green" href="#home">Home <span
+                                    class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link primary-green" href="product.html">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link primary-green" href="about.html">About</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link primary-green" href="contact.html">Contact</a>
+                        </li> -->
+
+                    </ul>
+                    <!--   Show this only lg screens and up   -->
+                    <a class="navbar-brand d-none d-lg-block primary-green" href="index.html">HASSAN G SONS</a>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link primary-green" href="#"><i class="fa-solid fa-user"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link primary-green" href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link primary-green" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="header_main container-fluid position-relative" id="overlay" id="home">
+                <div class="row">
+                    <div class="col px-0">
+                        <img src="assets/silk.jpg" alt="" class="img-fluid header-img ">
+
+                    </div>
+                    <div class="col">
+                        <img src="assets/h-2.jpg" alt="" class="img-fluid header-img">
+
+                    </div>
+                    <div class="col ps-0">
+                        <img src="assets/h-3.jpg" alt="" class="img-fluid header-img">
+
+                    </div>
+                    <div class="col px-0">
+                        <img src="assets/h-4.jpg" alt="" class="img-fluid header-img">
+
+                    </div>
+                </div>
+                <div class="header_main-middle-box position-absolute top-50 start-50 translate-middle ">
+                    <h1 class="header_main-heading">Hassan G Sons</h1>
+                </div>
+            </div>
+        </div>
+        <!-- SECTION-1 -->
+        <div class="section-1 py-5 dekstop">
+            <div class="row justify-content-center pb-4 text-center w-50 m-auto">
+                <div class="col-md-8 col-lg-6">
+                    <div class="header">
+                        <h2 class="box box_three">Popular Products</h2>
+                    </div>
+                </div>
+            </div>
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active section-products">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <!-- Single Product -->
+                                <div class="col-md-6 col-lg-4 col-xl-3">
+                                    <div id="fabric-1" class="single-product">
+                                        <div class="part-1">
+                                            <span class="discount">15% off</span>
+                                        </div>
+                                        <div class="part-2">
+                                            <h3 class="product-title">Here Product Title</h3>
+                                            <h4 class="product-price">$49.99</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Single Product -->
+                                <div class="col-md-6 col-lg-4 col-xl-3">
+                                    <div id="fabric-2" class="single-product">
+                                        <div class="part-1">
+                                            <span class="discount">15% off</span>
+                                        </div>
+                                        <div class="part-2">
+                                            <h3 class="product-title">Here Product Title</h3>
+                                            <h4 class="product-price">$49.99</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Single Product -->
+                                <div class="col-md-6 col-lg-4 col-xl-3">
+                                    <div id="fabric-3" class="single-product">
+                                        <div class="part-1">
+                                        </div>
+                                        <div class="part-2">
+                                            <h3 class="product-title">Here Product Title</h3>
+                                            <h4 class="product-old-price">$79.99</h4>
+                                            <h4 class="product-price">$49.99</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Single Product -->
+                                <div class="col-md-6 col-lg-4 col-xl-3">
+                                    <div id="fabric-4" class="single-product">
+                                        <div class="part-1">
+                                            <span class="new">new</span>
+                                        </div>
+                                        <div class="part-2">
+                                            <h3 class="product-title">Here Product Title</h3>
+                                            <h4 class="product-price">$49.99</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item section-products">
+                        <div class="row">
+                            <!-- Single Product -->
+                            <div class="col-md-6 col-lg-4 col-xl-3">
+                                <div id="fabric-5" class="single-product">
+                                    <div class="part-1">
+
+                                    </div>
+                                    <div class="part-2">
+                                        <h3 class="product-title">Here Product Title</h3>
+                                        <h4 class="product-old-price">$79.99</h4>
+                                        <h4 class="product-price">$49.99</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Single Product -->
+                            <div class="col-md-6 col-lg-4 col-xl-3">
+                                <div id="fabric-6" class="single-product">
+                                    <div class="part-1">
+                                        <span class="discount">15% off</span>
+
+                                    </div>
+                                    <div class="part-2">
+                                        <h3 class="product-title">Here Product Title</h3>
+                                        <h4 class="product-price">$49.99</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Single Product -->
+                            <div class="col-md-6 col-lg-4 col-xl-3">
+                                <div id="fabric-7" class="single-product">
+                                    <div class="part-1">
+
+                                    </div>
+                                    <div class="part-2">
+                                        <h3 class="product-title">Here Product Title</h3>
+                                        <h4 class="product-old-price">$79.99</h4>
+                                        <h4 class="product-price">$49.99</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Single Product -->
+                            <div class="col-md-6 col-lg-4 col-xl-3">
+                                <div id="fabric-8" class="single-product">
+                                    <div class="part-1">
+                                        <span class="new">new</span>
+
+                                    </div>
+                                    <div class="part-2">
+                                        <h3 class="product-title">Here Product Title</h3>
+                                        <h4 class="product-price">$49.99</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <!-- SECTION-2 -->
+        <div class="section-2 section-products">
+            <div class="container-fluid">
+                <div class="row justify-content-center text-center">
+                    <div class="col-md-8 col-lg-6">
+                        <div class="header">
+                            <!-- <h3>Featured Product</h3> -->
+                            <h2 class="box box_three">Popular Products</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- Single Product -->
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div id="product-1" class="single-product">
+                            <div class="part-1">
+                                <ul>
+                                    <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                                    <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                                    <li><a href="#"><i class="fas fa-plus"></i></a></li>
+                                    <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="part-2">
+                                <h3 class="product-title">Here Product Title</h3>
+                                <h4 class="product-old-price">$79.99</h4>
+                                <h4 class="product-price">$49.99</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Product -->
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div id="product-2" class="single-product">
+                            <div class="part-1">
+                                <span class="discount">15% off</span>
+                                <ul>
+                                    <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                                    <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                                    <li><a href="#"><i class="fas fa-plus"></i></a></li>
+                                    <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="part-2">
+                                <h3 class="product-title">Here Product Title</h3>
+                                <h4 class="product-price">$49.99</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Product -->
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div id="product-3" class="single-product">
+                            <div class="part-1">
+                                <ul>
+                                    <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                                    <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                                    <li><a href="#"><i class="fas fa-plus"></i></a></li>
+                                    <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="part-2">
+                                <h3 class="product-title">Here Product Title</h3>
+                                <h4 class="product-old-price">$79.99</h4>
+                                <h4 class="product-price">$49.99</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Product -->
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div id="product-4" class="single-product">
+                            <div class="part-1">
+                                <span class="new">new</span>
+                                <ul>
+                                    <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                                    <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                                    <li><a href="#"><i class="fas fa-plus"></i></a></li>
+                                    <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="part-2">
+                                <h3 class="product-title">Here Product Title</h3>
+                                <h4 class="product-price">$49.99</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Product -->
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div id="product-5" class="single-product">
+                            <div class="part-1">
+                                <ul>
+                                    <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                                    <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                                    <li><a href="#"><i class="fas fa-plus"></i></a></li>
+                                    <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="part-2">
+                                <h3 class="product-title">Here Product Title</h3>
+                                <h4 class="product-old-price">$79.99</h4>
+                                <h4 class="product-price">$49.99</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Product -->
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div id="product-6" class="single-product">
+                            <div class="part-1">
+                                <span class="discount">15% off</span>
+                                <ul>
+                                    <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                                    <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                                    <li><a href="#"><i class="fas fa-plus"></i></a></li>
+                                    <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="part-2">
+                                <h3 class="product-title">Here Product Title</h3>
+                                <h4 class="product-price">$49.99</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Product -->
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div id="product-7" class="single-product">
+                            <div class="part-1">
+                                <ul>
+                                    <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                                    <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                                    <li><a href="#"><i class="fas fa-plus"></i></a></li>
+                                    <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="part-2">
+                                <h3 class="product-title">Here Product Title</h3>
+                                <h4 class="product-old-price">$79.99</h4>
+                                <h4 class="product-price">$49.99</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Product -->
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div id="product-8" class="single-product">
+                            <div class="part-1">
+                                <span class="new">new</span>
+                                <ul>
+                                    <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                                    <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                                    <li><a href="#"><i class="fas fa-plus"></i></a></li>
+                                    <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="part-2">
+                                <h3 class="product-title">Here Product Title</h3>
+                                <h4 class="product-price">$49.99</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- SECTION-3 -->
+        <!-- <div class="section-3">
+            <h1 class="text-center pt-4 ">Shop By Fabric Application</h1>
+            <div class="container">
+                <div class="row ">
+                    <div class="col">
+                        <img src="https://img.freepik.com/free-photo/close-up-woman-martial-arts-costume_23-2148324739.jpg?w=826&t=st=1681142178~exp=1681142778~hmac=fac12d035e00efa6b0307bac2c5a24d59271b0a6f1cb86e235c56191e77934d9" class="img-thumbnail img-overlay" alt="...">
+                    </div>
+                    <div class="col">
+                        <img src="assets/curtains.jpg" class="img-thumbnail" alt="...">
+                    </div>
+                    <div class="col">
+                        <img src="assets/curtains.jpg" class="img-thumbnail" alt="...">
+                    </div>
+                    <div class="col">
+                        <img src="assets/curtains.jpg" class="img-thumbnail" alt="...">
+                    </div>
+                    <div class="col">
+                        <img src="assets/curtains.jpg" class="img-thumbnail" alt="...">
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col">
+                        <img src="assets/curtains.jpg" class="img-thumbnail" alt="...">
+                    </div>
+                    <div class="col">
+                        <img src="assets/curtains.jpg" class="img-thumbnail" alt="...">
+                    </div>
+                    <div class="col">
+                        <img src="assets/curtains.jpg" class="img-thumbnail" alt="...">
+                    </div>
+                    <div class="col">
+                        <img src="assets/curtains.jpg" class="img-thumbnail" alt="...">
+                    </div>
+                    <div class="col">
+                        <img src="assets/curtains.jpg" class="img-thumbnail" alt="...">
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <!-- SECTION-4 -->
+        <div class="section-4 container-fluid counter-container ">
+            <!-- <h1 class="pt-5 text-center">Sold so far</h1> -->
+            <div class="row text-center counter-row">
+                <div class="col-md-4 ">
+                    <span id="count1" class="display-2"></span>
+                    <p>MTRs of Fabric Processed</p>
+                </div>
+                <div class="col-md-4">
+                    <span id="count2" class="display-2"></span>
+                    <p>MTRs of Greige Fabric Supplied to Customers</p>
+                </div>
+                <div class="col-md-4">
+                    <span id="count3" class="display-2"></span>
+                    <p>Number of Customers Served</p>
+                </div>
+            </div>
+        </div>
+        <!-- FOOTER -->
+        <footer class="footer">
+            <div class="container">
+                <div class="row pt-5">
+                    <div class="col">
+                        <h6 class="ps-3 text-light pb-3 text-uppercase">Discover</h6>
+                        <ul class="list-group">
+                            <li class="list-group-item bg-transparent border-0 text-light">Home</li>
+                            <li class="list-group-item bg-transparent border-0 text-light">Product</li>
+                            <li class="list-group-item bg-transparent border-0 text-light">About Us</li>
+                            <li class="list-group-item bg-transparent border-0 text-light">Contact</li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h6 class="ps-3 text-light pb-3 text-uppercase"> Follow us</h6>
+                        <ul class="list-group d-flex flex-row">
+                            <li class="list-group-item bg-transparent border-0 text-light"><i
+                                    class="fa-brands fa-instagram"></i></li>
+                            <li class="list-group-item bg-transparent border-0 text-light"><i
+                                    class="fa-brands fa-youtube"></i></li>
+                            <li class="list-group-item bg-transparent border-0 text-light"><i
+                                    class="fa-brands fa-facebook"></i></li>
+                            <li class="list-group-item bg-transparent border-0 text-light"><i
+                                    class="fa-brands fa-whatsapp"></i></li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h6 class="ps-3  text-light pb-3 text-uppercase">Customer Service</h6>
+                        <ul class="list-group">
+                            <li class="list-group-item bg-transparent border-0 text-light">Tel: (111) 3002-8764</li>
+                            <li class="list-group-item bg-transparent border-0 text-light">Mon-Fri: 8:00 am - 7:30 pm
+                            </li>
+                            <li class="list-group-item bg-transparent border-0 text-light">support@fabricexample.com
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="row py-3">
+                    <div class="col text-center">
+                        <p class="text-muted  pt-4 mb-0">Copyright ©
+                            <script>document.write(new Date().getFullYear())</script> Hassan G Sons All Rights Reserved
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+
+    <!-- BOOTSTRAP JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <script>
+
+        // COUNTER 
+        document.addEventListener("DOMContentLoaded", () => {
+            function counter(id, start, end, duration) {
+                let obj = document.getElementById(id),
+                    current = start,
+                    range = end - start,
+                    increment = end > start ? 1 : -1,
+                    step = Math.abs(Math.floor(duration / range)),
+                    timer = setInterval(() => {
+                        current += increment;
+                        obj.textContent = current;
+                        if (current == end) {
+                            clearInterval(timer);
+                        }
+                    }, step);
+            }
+            counter("count1", 0, 1900, 3000);
+            counter("count2", 100, 350, 2500);
+            counter("count3", 0, 120, 3000);
+        });
+
+
+        // PRODUCT SLIDER
+
+        productScroll();
+
+        function productScroll() {
+            let slider = document.getElementById("slider");
+            let next = document.getElementsByClassName("pro-next");
+            let prev = document.getElementsByClassName("pro-prev");
+            let slide = document.getElementById("slide");
+            let item = document.getElementById("slide");
+
+            for (let i = 0; i < next.length; i++) {
+                //refer elements by class name
+
+                let position = 0; //slider postion
+
+                prev[i].addEventListener("click", function () {
+                    //click previos button
+                    if (position > 0) {
+                        //avoid slide left beyond the first item
+                        position -= 1;
+                        translateX(position); //translate items
+                    }
+                });
+
+                next[i].addEventListener("click", function () {
+                    if (position >= 0 && position < hiddenItems()) {
+                        //avoid slide right beyond the last item
+                        position += 1;
+                        translateX(position); //translate items
+                    }
+                });
+            }
+
+            function hiddenItems() {
+                //get hidden items
+                let items = getCount(item, false);
+                let visibleItems = slider.offsetWidth / 210;
+                return items - Math.ceil(visibleItems);
+            }
+        }
+
+        function translateX(position) {
+            //translate items
+            slide.style.left = position * -210 + "px";
+        }
+
+        function getCount(parent, getChildrensChildren) {
+            //count no of items
+            let relevantChildren = 0;
+            let children = parent.childNodes.length;
+            for (let i = 0; i < children; i++) {
+                if (parent.childNodes[i].nodeType != 3) {
+                    if (getChildrensChildren)
+                        relevantChildren += getCount(parent.childNodes[i], true);
+                    relevantChildren++;
+                }
+            }
+            return relevantChildren;
+        }
+
+
+        // CATEGORY SLIDER
+        const sliderContainer = document.querySelector('.slider-container')
+        const slideRight = document.querySelector('.right-slide')
+        const slideLeft = document.querySelector('.left-slide')
+        const upButton = document.querySelector('.up-button')
+        const downButton = document.querySelector('.down-button')
+        const slidesLength = slideRight.querySelectorAll('div').length
+
+        let activeSlideIndex = 0
+
+        slideLeft.style.top = `-${(slidesLength - 1) * 100}vh`
+
+        upButton.addEventListener('click', () => changeSlide('up'))
+        downButton.addEventListener('click', () => changeSlide('down'))
+
+        const changeSlide = (direction) => {
+            const sliderHeight = sliderContainer.clientHeight
+            if (direction === 'up') {
+                activeSlideIndex++
+                if (activeSlideIndex > slidesLength - 1) {
+                    activeSlideIndex = 0
+                }
+            } else if (direction === 'down') {
+                activeSlideIndex--
+                if (activeSlideIndex < 0) {
+                    activeSlideIndex = slidesLength - 1
+                }
+            }
+
+            slideRight.style.transform = `translateY(-${activeSlideIndex * sliderHeight}px)`
+            slideLeft.style.transform = `translateY(${activeSlideIndex * sliderHeight}px)`
+        }
+
+
+
+    </script>
+</body>
+
+</html>
